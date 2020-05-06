@@ -6,7 +6,7 @@ import "firebase/auth";
 
 // TODO: Replace the following with your app's Firebase project configuration
 const config = {
-  apiKey: "AIzaSyAJN_fNubHpDGBtG0JT3W5I_84FmVrpnRc",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "sample-e057a.firebaseapp.com",
   databaseURL: "https://sample-e057a.firebaseio.com",
   projectId: "sample-e057a",

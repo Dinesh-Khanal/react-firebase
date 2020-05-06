@@ -19,7 +19,6 @@ export default function App() {
       setFirebaseInitialized(val);
     });
   });
-
   return FirebaseInitialized !== false ? (
     <MuiThemeProvider theme={theme}>
       <CssBaseline />
